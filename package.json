@@ -65,7 +65,10 @@
     "test": "gulp once",
     "watch": "gulp",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
-    "lint": "gulp eslint"
+    "lint": "gulp eslint",
+    "docs": "mkdocs build",
+    "docs:local": "mkdocs serve",
+    "docs:publish": "echo 'Docs publish placeholder'"
   },
   "pre-commit": [
     "precommit-msg",

@@ -52,6 +52,14 @@ Example:
     code snippet goes here.
     ```
 
+#### Previewing
+
+Follow these steps to preview the documentation
+
+* [Install mkdocs](http://www.mkdocs.org/#installation)
+* Run `npm run docs:local`
+* Open your web browser to localhost:8000 to view the documents
+
 #### Publishing
 
-To publish documentation on appium.io see [api-docs](https://github.com/appium/api-docs) and [appium.io](https://github.com/appium/appium.io).
+To publish documentation, run the npm script `npm run docs:publish`
