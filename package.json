@@ -67,8 +67,10 @@
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "lint": "gulp eslint",
     "docs": "mkdocs build",
+    "docs:clean": "rimraf site",
     "docs:local": "mkdocs serve",
-    "docs:publish": "echo 'Docs publish placeholder'"
+    "docs:publish": "echo 'Docs publish placeholder. TODO: Deploy to Appium docs site repository'",
+    "docs:publish:draft": "mkdocs gh-deploy -r https://github.com/dpgraham/appium-docs.git && opn https://dpgraham.github.io/appium-docs/"
   },
   "pre-commit": [
     "precommit-msg",
@@ -89,6 +91,7 @@
     "gulp": "3.x",
     "mocha": "2.x",
     "pre-commit": "1.x",
+    "rimraf": "^2.6.1",
     "sinon": "1.x",
     "wd": "1.x"
   },

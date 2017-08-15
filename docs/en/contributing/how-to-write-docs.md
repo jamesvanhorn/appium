@@ -62,4 +62,5 @@ Follow these steps to preview the documentation
 
 #### Publishing
 
-To publish documentation, run the npm script `npm run docs:publish`
+* To publish documentation, run the npm script `npm run docs:publish`
+* To publish draft documentation, run the npm script `npm run docs:publish:draft` and it will automatically be opened in your browser
